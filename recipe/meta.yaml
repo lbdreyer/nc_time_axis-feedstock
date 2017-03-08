@@ -1,5 +1,5 @@
-{% set version = "1.0.1" %}
-{% set sha256 = "965d4b8d0c5a13fd85db8e978582c071b4545d37c86503ca851c56449db22463" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "ef05e3b3718fd324ff55cc7efd813374195fa67be3e57b6086c01bc0a5bdc47c" %}
 
 package:
   name: nc_time_axis
