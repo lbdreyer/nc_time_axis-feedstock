@@ -7,21 +7,22 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Support for netcdftime axis in matplotlib.
+Summary: Provides support for non-gregorian datetimes in matplotlib based on the cftime package
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nc_time_axis-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nc_time_axis-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nc_time_axis-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nc_time_axis-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nc_time_axis-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nc-time-axis-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/nc_time_axis-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/nc_time_axis-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nc_time_axis/badges/version.svg)](https://anaconda.org/conda-forge/nc_time_axis)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nc_time_axis/badges/downloads.svg)](https://anaconda.org/conda-forge/nc_time_axis)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nc_time_axis-green.svg)](https://anaconda.org/conda-forge/nc_time_axis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nc_time_axis.svg)](https://anaconda.org/conda-forge/nc_time_axis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nc_time_axis.svg)](https://anaconda.org/conda-forge/nc_time_axis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nc_time_axis.svg)](https://anaconda.org/conda-forge/nc_time_axis) |
 
 Installing nc_time_axis
 =======================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
