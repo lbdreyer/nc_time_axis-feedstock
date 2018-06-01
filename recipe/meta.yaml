@@ -1,14 +1,12 @@
 {% set version = "1.1.0" %}
-{% set sha256 = "51e8452ad0e7fb4a5eed6588880d8d2a6b3a23a6d111aa203bf2ff127bbe4a1f" %}
 
 package:
-  name: nc_time_axis
+  name: nc-time-axis
   version: {{ version }}
 
 source:
-  fn: nc-time-axis-{{ version }}.tar.gz
   url: https://github.com/SciTools/nc-time-axis/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 51e8452ad0e7fb4a5eed6588880d8d2a6b3a23a6d111aa203bf2ff127bbe4a1f
 
 build:
   number: 0
