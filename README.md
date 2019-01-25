@@ -1,4 +1,8 @@
-About nc_time_axis
+<!--
+# -*- mode: jinja -*-
+-->
+
+About nc-time-axis
 ==================
 
 Home: https://github.com/SciTools/nc-time-axis
@@ -22,32 +26,34 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-nc_time_axis-green.svg)](https://anaconda.org/conda-forge/nc_time_axis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nc_time_axis.svg)](https://anaconda.org/conda-forge/nc_time_axis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nc_time_axis.svg)](https://anaconda.org/conda-forge/nc_time_axis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nc_time_axis.svg)](https://anaconda.org/conda-forge/nc_time_axis) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nc--time--axis-green.svg)](https://anaconda.org/conda-forge/nc-time-axis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nc-time-axis.svg)](https://anaconda.org/conda-forge/nc-time-axis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nc-time-axis.svg)](https://anaconda.org/conda-forge/nc-time-axis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nc-time-axis.svg)](https://anaconda.org/conda-forge/nc-time-axis) |
 
-Installing nc_time_axis
+Installing nc-time-axis
 =======================
 
-Installing `nc_time_axis` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `nc-time-axis` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `nc_time_axis` can be installed with:
+Once the `conda-forge` channel has been enabled, `nc-time-axis` can be installed with:
 
 ```
-conda install nc_time_axis
+conda install nc-time-axis
 ```
 
-It is possible to list all of the versions of `nc_time_axis` available on your platform with:
+It is possible to list all of the versions of `nc-time-axis` available on your platform with:
 
 ```
-conda search nc_time_axis --channel conda-forge
+conda search nc-time-axis --channel conda-forge
 ```
 
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -57,13 +63,13 @@ for each of the installable packages. Such a repository is known as a *feedstock
 A feedstock is made up of a conda recipe (the instructions on what and how to build
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
-[CircleCI](https://circleci.com/), [AppVeyor](http://www.appveyor.com/)
+[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
 and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
-[Anaconda-Cloud](http://docs.anaconda.org/) channel for Linux, Windows and OSX respectively.
+[Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
-[conda-smithy](http://github.com/conda-forge/conda-smithy) has been developed.
+[conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
@@ -82,24 +88,32 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating nc_time_axis-feedstock
+Updating nc-time-axis-feedstock
 ===============================
 
-If you would like to improve the nc_time_axis recipe or build a new
+If you would like to improve the nc-time-axis recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/nc_time_axis-feedstock are
+Note that all branches in the conda-forge/nc-time-axis-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string).
+   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string)
+   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@lbdreyer](https://github.com/lbdreyer/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+* [@pelson](https://github.com/pelson/)
+
