@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: nc-time-axis
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/SciTools/nc-time-axis/archive/v{{ version }}.tar.gz
-  sha256: 51e8452ad0e7fb4a5eed6588880d8d2a6b3a23a6d111aa203bf2ff127bbe4a1f
+  sha256: 49c4b1022e601e22a2fb5fc6fc2af69070cceb5cdd01a880ae7379caef8f2f90
 
 build:
   number: 0
